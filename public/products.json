@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Wooh Ninja",
+        "color": "Grey",
+        "size": "xl",
+        "Stock": "10",
+        "price": "$20",
+        "img": "https://i.ibb.co/XFs08Bj/huddy3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Wooh Logo",
+        "color": "Black",
+        "size": "lg",
+        "Stock": "15",
+        "price": "$25",
+        "img": "https://i.ibb.co/x6TGYzQ/huddy4.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Patient Ninja",
+        "color": "White",
+        "size": "xxl",
+        "Stock": "22",
+        "price": "$30",
+        "img": "https://i.ibb.co/pw0CwSK/huddy5.jpg"
+    },
+    {
+        "id": 4,
+        "name": " Ninja Silhouetle",
+        "color": "Yellow",
+        "size": "sm",
+        "Stock": "17",
+        "price": "$35",
+        "img": "https://i.ibb.co/gwkDySF/huddy8.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Wooh Tuto",
+        "color": "Dark Yellow",
+        "size": "L",
+        "Stock": "16",
+        "price": "$21",
+        "img": "https://i.ibb.co/zhW8KQY/huddy2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Wooh Mimu",
+        "color": "Blue",
+        "size": "xxl",
+        "Stock": "20",
+        "price": "$35",
+        "img": "https://i.ibb.co/Wz4ZVFt/huddy1.jpg"
+    }
+]

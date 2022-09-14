@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import InputField from '../InputField';
 
 const Product = () => {
     const [product, setProduct] = useState([])
@@ -8,32 +9,12 @@ const Product = () => {
             .then(data => setProduct(data))
     })
     return (
-        <div className="">
-           <div className="flex">
-           <div class="form-control mid-container">
-                <div class="input-group">
-                    <select class="select select-bordered">
-                        <option disabled selected>Pick category</option>
-                        <option>T-shirts</option>
-                        <option>Mugs</option>
-                    </select>
-                  
-                </div>
-            </div>
-           <div class="form-control mid-container">
-                <div class="input-group">
-                    <select class="select select-bordered">
-                        <option disabled selected>Pick category</option>
-                        <option>T-shirts</option>
-                        <option>Mugs</option>
-                    </select>
-                  
-                </div>
-            </div>
-           </div>
+        <div className="mt-20">
+            <InputField></InputField>
+          
 
 
-            <div class="overflow-x-auto w-full mid-container mt-20">
+            <div class="overflow-x-auto w-full mid-container ">
                 <table class="table w-full">
 
                     <thead>

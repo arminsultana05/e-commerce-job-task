@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import InputField from '../InputField';
+import { BsCart3 } from 'react-icons/bs';
 
 const Product = () => {
     const [product, setProduct] = useState([])
@@ -25,7 +26,15 @@ const Product = () => {
                             <th>Color</th>
                             <th>Stock</th>
                             <th>Price</th>
+                            <div className="w-full">
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
                             <th>Buy</th>
+                            </div>
+                            
 
                         </tr>
                     </thead>
@@ -43,15 +52,24 @@ const Product = () => {
 
                                     </div>
                                 </td>
-                                <td className='text-primary'>{p.name}</td>
+                                <td className='text-info'>{p.name}</td>
                                 <td>{p.color}</td>
                                 <td>{p.Stock}</td>
                                 <td>{p.price}</td>
+                                <div className="ml-21">
+                                <td>
+                                <button className='bg-base-200 px-5 py-1 '>1</button></td>
+                                <td><button class="btn btn-sm "><BsCart3></BsCart3></button></td>
+                                <td>   <input type="checkbox" class="checkbox"/></td>
+                                </div>
 
                             </tr>)
+                            
+                            
+                            
                         }
 
-                        {/* <!-- row 2 --> */}
+                     
 
                     </tbody>
                     {/* <!-- foot --> */}
